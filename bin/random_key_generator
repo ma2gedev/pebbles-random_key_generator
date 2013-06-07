@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'pebbles/random_key_generator'
+
+if ARGV.nil?
+  puts "Usage: random_key_generator 32"
+  puts "You can generate multiple keys: random_key_generator 32 32 64"
+end
+
+ARGV.each do |length|
+  puts Pebbles::RandomKeyGenerator.generate length
+end

@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Pebbles::RandomKeyGenerator::VERSION
   spec.authors       = ["Takayuki Matsubara"]
   spec.email         = ["takayuki.1229@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Simply generates random key from CLI.}
+  spec.summary       = %q{Simply generates random key from CLI. Execute `random_key_generator` with key length args.}
+  spec.homepage      = "https://github.com/ma2gedev/pebbles-random_key_generator"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
