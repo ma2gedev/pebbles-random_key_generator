@@ -5,7 +5,7 @@ module Pebbles
   module RandomKeyGenerator
     def self.generate(length)
       length = length.to_i if length.instance_of?(String)
-      [OpenSSL::Random.random_bytes(length)].pack('m').gsub(/\W/, '')[0,(length - 1)]
+      [OpenSSL::Random.random_bytes(length)].pack('m').gsub(/\W/, '')[0, length]
     end
   end
 end
