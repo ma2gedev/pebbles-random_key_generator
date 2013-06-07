@@ -1,24 +1,25 @@
 # Pebbles::RandomKeyGenerator
 
-TODO: Write a gem description
+Simply generates random key from CLI. Execute `random_key_generator` with key length args.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'pebbles-random_key_generator'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it yourself as:
 
     $ gem install pebbles-random_key_generator
 
 ## Usage
 
-TODO: Write usage instructions here
+Generate random key.
+
+    $ random_key_generator 32
+    # => ilSrOpeVzuTu7hF5UOLBzi4t7d3svNfi
+
+Generate multiple random key.
+
+    $ random_key_generator 20 40
+    # => SABikHBrFjbnqbyuo5lZ
+    # => uTKWQBWNY0BJSY2F0gQFp6YvllEbGUl46fHKZi89
 
 ## Contributing
 
